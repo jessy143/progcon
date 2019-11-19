@@ -1,5 +1,4 @@
-
-
+Outcomes List of Activities:
 
 M1 - Adding Two Numbers
 M2 - Getting the Area of a Circle using Radius And Diameter
