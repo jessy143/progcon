@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-22 12:07:17 PM"/>
+        <attribute name="created" value="UmFtcztMQUIzMTRDMzA7MjAxOS0xMS0xMjswOTo0MjozNSBBTTsyMTk3"/>
+        <attribute name="edited" value="UmFtcztMQUIzMTRDMzA7MjAxOS0xMS0xMjswOTo1OTozNCBBTTsxOzIzMTI="/>
+        <attribute name="edited" value="UmFtcztMQUI2MDRDMDU7MjAxOS0xMS0yMjsxMjowNzoxNyBQTTsxOzIzMjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Radius" type="Integer" array="False" size=""/>
+            <declare name="Diameter" type="Integer" array="False" size=""/>
+            <declare name="Area" type="Integer" array="False" size=""/>
+            <declare name="Answer" type="String" array="False" size=""/>
+            <output expression="&quot;WELCOME&quot;" newline="True"/>
+            <output expression="&quot;You want to input Diameter or Radius?&quot;" newline="True"/>
+            <input variable="Answer"/>
+            <if expression="Answer == &quot;Radius&quot;">
+                <then>
+                    <output expression="&quot;Input Radius&quot;" newline="True"/>
+                    <input variable="Radius"/>
+                    <assign variable="Area" expression="3.14 * Radius ^ 2"/>
+                    <output expression="&quot;The area of a Circle is  &quot; &amp; Area" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Answer == &quot;Diameter&quot;">
+                        <then>
+                            <output expression="&quot;input diameter&quot;" newline="True"/>
+                            <input variable="Diameter"/>
+                            <assign variable="Area" expression="(3.14/4) * Diameter ^ 2"/>
+                            <output expression="&quot;The Area of a Circle is  &quot; &amp; Area" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;invalid&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
