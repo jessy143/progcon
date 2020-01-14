@@ -8,3 +8,4 @@ Outcomes List of Activities:
 6. A6 - Chapter 2 - Written Activity
 7. A7 - Flowcharts And Algorithms - written exercise
 8. A8 - Chapter 3 - Written Activity
+9. A9 - Blockly Games
