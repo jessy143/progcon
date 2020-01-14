@@ -5,3 +5,5 @@ Outcomes List of Reflections:
 3. R3 - SoM Week
 4. R4 - My First Program Using Flowgarithm
 5. R5 - Introduction to GitHub
+6. R6 - First Half of PROGCON
+7. R7 - Blockly Games
