@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-12-06 11:20:52 AM"/>
+        <attribute name="created" value="UmFtcztERVNLVE9QLUM2TFBQSjg7MjAxOS0xMS0yOTsxMDowNzowMCBBTTsyNzM1"/>
+        <attribute name="edited" value="UmFtcztERVNLVE9QLUM2TFBQSjg7MjAxOS0xMi0wNjsxMToyMDo1MiBBTTs1OzI4NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Num1" type="Real" array="False" size=""/>
+            <declare name="Name" type="String" array="False" size=""/>
+            <output expression="&quot;Hello, Welcome to my GRADING EQUIVALENTS SYSTEM.&quot;" newline="True"/>
+            <output expression="&quot;Pls. State your Name.&quot;" newline="True"/>
+            <input variable="Name"/>
+            <output expression="&quot;Pls. State your Grade &quot; &amp; Name" newline="True"/>
+            <input variable="Num1"/>
+            <if expression="Num1&gt;=95">
+                <then>
+                    <output expression="&quot;You have a great equivalent of 4.0&quot;" newline="True"/>
+                    <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Num1&gt;=91">
+                        <then>
+                            <output expression="&quot;You have a great equivalent of 3.5&quot;" newline="True"/>
+                            <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Num1&gt;=87">
+                                <then>
+                                    <output expression="&quot;You have a great equivalent of 3.0&quot;" newline="True"/>
+                                    <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="Num1&gt;=83">
+                                        <then>
+                                            <output expression="&quot;You have a great equivalent of 2.5&quot;" newline="True"/>
+                                            <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="Num1&gt;=79">
+                                                <then>
+                                                    <output expression="&quot;You have an equivalent of 2.0&quot;" newline="True"/>
+                                                    <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="Num1&gt;=75">
+                                                        <then>
+                                                            <output expression="&quot;You've got an equivalent of 1.5&quot;" newline="True"/>
+                                                            <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="Num1&gt;=70">
+                                                                <then>
+                                                                    <output expression="&quot; You've Got an equivalent of 1.0&quot;" newline="True"/>
+                                                                    <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="Num1&lt;70">
+                                                                        <then>
+                                                                            <output expression="&quot;You've got an 'R' as in 'Repeat' on your Subject&quot;" newline="True"/>
+                                                                            <output expression="&quot;Thank you and Come Again &quot; &amp; Name" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
