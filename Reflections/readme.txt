@@ -7,3 +7,4 @@ Outcomes List of Reflections:
 5. R5 - Introduction to GitHub
 6. R6 - First Half of PROGCON
 7. R7 - Blockly Games
+8. R8 - My PROGCON Class Experience
